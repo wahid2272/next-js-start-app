@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import {Fragment} from 'react';
 
 function HomePage() {
@@ -5,7 +6,7 @@ function HomePage() {
        <Fragment>
            <h1>Welcome to Home the Page</h1>
             <ul>
-                <a href="/news/test-case">Click Me</a>
+                <Link href="/news/test-case">Click Me</Link>
             </ul>
        </Fragment> 
 
